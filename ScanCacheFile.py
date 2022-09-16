@@ -8,6 +8,7 @@ from  win10toast import ToastNotifier
 FavKey = "New Text Document.txt" #Make a New File with that name inside of the folder with the avatar file to add it to your favorite
 waits = 1 #Second wait before another full scan start
 APIkey = "" #Your API auth key
+#Open file explorer and go to C:\Users\{Ur pc username}\AppData\LocalLow\VRChat\VRChat\Cache-WindowsPlayer
 
 def ScanFile(Path):
     with open(Path):
